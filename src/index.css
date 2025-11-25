@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-primary text-light font-body antialiased;
+    background-image: url('/materials/marble-gold.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  a {
+    @apply text-accent transition-colors duration-300;
+  }
+
+  a:hover {
+    @apply text-light;
+  }
+}
