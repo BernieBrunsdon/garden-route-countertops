@@ -37,7 +37,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NODE_ENV: production
+          BASE_PATH: /garden-route-countertops/
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
